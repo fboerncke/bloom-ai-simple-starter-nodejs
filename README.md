@@ -48,7 +48,26 @@ You want to retrain the model? [Before you start have a look at this](https://bi
 
 If you - like my - are principally interested in how the technology feels and behaves, if you want an easy approach to get things up and running, if you want to play around with some prompts then there is another way: [a public API](https://huggingface.co/docs/api-inference/quicktour) allows quick tests, prototyping, and lower-scale use. 
 
-I plan to publish another article about how to use this API soon. Stay tuned!
+There are quite some examples around how to make use of this API. Most of what you will find on the web is **Python** based code. **If you feel more familiar with **NodeJS** and want to have something up and running in under an hour then this project is for you**.
+
+### Requirements / Preparation
+
+For this example to work you need:
+
+- NodeJS installed
+- Sign up for an account at https://huggingface.co/
+- Create an API token https://huggingface.co/settings/tokens
+- Internet access (this solution won't work offline)
+
+### Installation
+
+- Create a new folder for your experiments on your local machine
+- Download files "`package.json`" and "`index.js`" from this project
+- Open the file `index.js` and set the constant `apiToken` with the value you created above
+- run `npm install`
+- Now you are ready to run the first example by entering `node index.js`
+
+In under a minute you should see a result in your terminal.
 
 ## How does this work?
 
@@ -58,7 +77,7 @@ There is a lot of mathematics going on in the background but from a user perspec
 
 In addition to finding a good prompt you also have to decide about values for a long list of available parameters [there are a lot](https://huggingface.co/docs/api-inference/detailed_parameters). Modifying parameter settings will influence the results you get.
 
-## Limitations
+## Before you start experiments - note the limitations
 
 When working with BLOOM currently both **prompt length** and **result length** are limited in terms of size. With GPT-3 I was able to create long texts. This will not work (currently) with BLOOM.
 
@@ -66,7 +85,7 @@ Furthermore a resulting completion string may stop right in the middle of a sent
 
 The API is not meant to be fast. It may take a minute or so to get a result.
 
-## Now let us see some examples
+## Don't know where to start? Here are some examples
 
 Finally here are some examples for **prompts** and **completions**.
 
