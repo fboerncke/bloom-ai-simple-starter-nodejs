@@ -1,0 +1,18 @@
+{
+  "name": "bloom-ai-simple-starter-nodejs",
+  "version": "1.0.0",
+  "description": "Simple starter BLOOM example showing how to access the web api to get something up and running",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bloom",
+    "ai"
+  ],
+  "author": "Frank Börncke",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
