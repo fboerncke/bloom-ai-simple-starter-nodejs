@@ -11,11 +11,9 @@ So what is BLOOM you ask? You may already have heard of *transformer based large
 
 Trained on massive amounts of texts such systems can produce/generate new text based on a short input string often described as "prompt".
 
-For a lot of usecases the resulting textsturn out to appear somehow *smart* which is why such systems are often used and evaluated in the context of *Artificial Intelligence* (AI).
+For a lot of usecases the resulting texts turn out to appear somehow *smart* which is why such systems are often used and evaluated in the context of *Artificial Intelligence* (AI).
 
-Use cases include building chatbots, generate articles and blog entries based on a list of keywords or support developers while coding.  
-
-[GitHub CoPilot](https://github.com/features/copilot) even became a commercial product already which proves you can make money with such a technology.
+Use cases include building chatbots, generate articles and blog entries based on a list of keywords or support developers while coding. For example [GitHub CoPilot](https://github.com/features/copilot) became a commercial product already which proves you can make money with such a technology.
 
 It would be an omission not the mention that [some systems attracted attention for creating biased content](https://www.nature.com/articles/d41586-018-05707-8) - which is of course due to the material those systems have been trained with.
 
