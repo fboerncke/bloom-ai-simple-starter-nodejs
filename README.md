@@ -1,6 +1,9 @@
-# A simple starter for AI with BLOOM
+# A simple starter for AI with BLOOM using Node.js
 
 When you follow technical blogs and news tickers you may have read about **[BLOOM](https://huggingface.co/bigscience/bloom)** in the context of AI and text generation. I became curious and within this article I want to share my findings with you.
+
+If you are not interested in background information and just want to start with your experiments then you can jump to the [installation instructions](#how-to-setup-a-simple-test-environment).
+
 
 ## What is BLOOM?
 
@@ -38,11 +41,12 @@ The makers of BLOOM describe the result as follows:
 
 And more:
 
-"*any individual or institution who agrees to the terms of the model’s Responsible AI License (developed during the BigScience project itself) can use and build upon the model on a local machine or on a cloud provider*" [Source](https://bigscience.huggingface.co/blog/bloom)
+"*any individual or institution who agrees to the terms of the model’s Responsible AI License (developed during the BigScience project itself) can use and build upon the model on a 
+machine or on a cloud provider*" [Source](https://bigscience.huggingface.co/blog/bloom)
 
-## Try it yourself
+## How to setup a simple test environment
 
-When they talk about "*local machine*" the reader might belive that there is a way to simply download and install the whole environment like you would do with tools as Visual Studio Code. But it turns out that things don't work like that. The whole system being open does not mean that you have the processing power available to use BLOOM offline in any reasonable way. [Some people tried it though and you may be interested to follow this thread in a discussion board](https://huggingface.co/bigscience/bloom/discussions/45).
+When the creators of BLOOM promise that a developer "*can use and build upon the model on a local machine*" the reader might belive that there is a way to simply download and install the whole environment like you would do with tools as Visual Studio Code. But it turns out that things don't work like that. The whole system being open does not mean that you have the processing power available to use BLOOM offline in any reasonable way. [Some people tried it though and you may be interested to follow this thread in a discussion board](https://huggingface.co/bigscience/bloom/discussions/45).
 
 You want to retrain the model? [Before you start have a look at this](https://bigscience.notion.site/BLOOM-BigScience-176B-Model-ad073ca07cdf479398d5f95d88e218c4) and make sure you have the appropriate hardware available 😊
 
