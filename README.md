@@ -46,7 +46,7 @@ When they talk about "*local machine*" the reader might belive that there is a w
 
 You want to retrain the model? [Before you start have a look at this](https://bigscience.notion.site/BLOOM-BigScience-176B-Model-ad073ca07cdf479398d5f95d88e218c4) and make sure you have the appropriate hardware available 😊
 
-If you - like my - are principally interested in how the technology feels and behaves, if you want an easy approach to get things up and running, if you want to play around with some prompts then there is another way: [a public API](https://huggingface.co/docs/api-inference/quicktour) allows quick tests, prototyping, and lower-scale use. 
+If you - like my - are just interested in how the technology feels and behaves, if you want an easy approach to get things up and running, if you want to play around with some prompts then there is another way: [a public API](https://huggingface.co/docs/api-inference/quicktour) allows quick tests, prototyping, and lower-scale use. 
 
 There are quite some examples around how to make use of this API. Most of what you will find on the web is **Python** based code. **If you feel more familiar with **NodeJS** and want to have something up and running in under an hour then this project is for you**.
 
@@ -79,11 +79,11 @@ In addition to finding a good prompt you also have to decide about values for a 
 
 ## Before you start experiments - note the limitations
 
-When working with BLOOM currently both **prompt length** and **result length** are limited in terms of size. With GPT-3 I was able to create long texts. This will not work (currently) with BLOOM.
+When working with BLOOM currently both **prompt length** and **result length** are limited in terms of size. With GPT-3 I was able to create long texts. This will not work with BLOOM. Hopefully they will change this restriction in the near future.
 
-Furthermore a resulting completion string may stop right in the middle of a sentence.  Not only because of this it seems necessary to postprocess all results  when you plan to use them in a real world application.
+Furthermore a resulting completion string may stop right in the middle of a sentence.  Not only because of this it seems necessary to filter and postprocess all results in case you plan to use them in a real world application.
 
-The API is not meant to be fast. It may take a minute or so to get a result.
+The API is not meant to be fast: it may take a minute or so to get a result. So do not plan to built a real time based on this approach.
 
 ## Don't know where to start? Here are some examples
 
